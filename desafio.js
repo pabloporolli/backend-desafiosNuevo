@@ -1,5 +1,5 @@
 class Usuario {
-    constructor (nombre, apellido, libros, mascotas) {
+    constructor (nombre, apellido, libros = [], mascotas = []) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.libros = libros;
@@ -45,7 +45,7 @@ const usuario = new Usuario (
             autor: "Fedor Dostoievski"
         }
     ],
-    mascota = ["perro", "gato"]
+    mascotas = ["perro", "gato"]
     );
 
 console.log(usuario);
