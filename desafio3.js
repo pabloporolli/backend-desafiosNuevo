@@ -24,7 +24,7 @@ app.get('/productoRandom', (req, res) => {
     .then((contenido) =>{
         let cantIds = contenido.length
         console.log("CONTENIDO: ", cantIds);
-        let idAleatorio = Math.round(Math.random() * cantIds)
+        let idAleatorio = Math.ceil(Math.random() * cantIds)
         console.log("Aleatorio: ", idAleatorio)
         productos.getById(idAleatorio)
         .then((respuesta) => {
