@@ -72,7 +72,8 @@ class Contenedor {
             const data = JSON.parse(dataSinJSON);
             const prodFiltrado = data.filter(prod => prod.id === num);
             if (prodFiltrado.length > 0) {
-                return console.log("El producto consultado es el siguiente: ", prodFiltrado);
+                console.log("El producto consultado es el siguiente: ", prodFiltrado)
+                return prodFiltrado
             }
             else {
                 console.log("El producto no se encuentra: ", null);
@@ -95,6 +96,8 @@ const scott = {
     thumbnail: "https://img.velocorner.ch/204732/conversions/353_Orbea_Ordu_M20iLTD_custom_XL-medium.jpg"
 };
 
+module.exports = Contenedor;
+
 // Métodos a probar
 // productos.save(scott);
 // productos.getById(8);
@@ -103,4 +106,3 @@ const scott = {
 // productos.deleteAll();
 
 
-// module.exports = Contenedor;

@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "backend-desafios",
+  "version": "1.0.0",
+  "main": "desafio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon desafio3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloporolli/backend-desafios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloporolli/backend-desafios/issues"
+  },
+  "homepage": "https://github.com/pabloporolli/backend-desafios#readme",
+  "keywords": [],
+  "description": ""
+}
