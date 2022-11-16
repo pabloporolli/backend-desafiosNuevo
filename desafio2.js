@@ -73,7 +73,7 @@ class Contenedor {
             const prodFiltrado = data.filter(prod => prod.id === num);
             if (prodFiltrado.length > 0) {
                 console.log("El producto consultado es el siguiente: ", prodFiltrado)
-                return prodFiltrado
+                return prodFiltrado;
             }
             else {
                 console.log("El producto no se encuentra: ", null);
@@ -82,6 +82,25 @@ class Contenedor {
         }
         catch (err) {
             console.log("Error al traer por ID: " + err);
+        }
+    }
+
+    async modifyById (id, nuevaInfo) {
+        try {
+            let dataSinJSON = await fs.readFile(this.fileName, 'utf-8');
+            const data = JSON.parse(dataSinJSON);
+            let prodFiltrado = data.filter(prod => prod.id === id);
+            const indice = data.findIndex(element => element.id === id);
+            data[indice] = {
+                id: id,
+                title: nuevaInfo.title || data[indice].title,
+                price: nuevaInfo.price || data[indice].price,
+                thumbnail: nuevaInfo.thumbnail || data[indice].thumbnail
+            }
+            await fs.writeFile(this.fileName, JSON.stringify(data, null, 2),'utf-8');
+        }
+        catch (err) {
+            console.log("Error al modificar un producto: " + err);
         }
     }
 
