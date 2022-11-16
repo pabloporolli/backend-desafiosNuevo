@@ -1,0 +1,17 @@
+* {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+}
+
+.pag {
+    margin: 3rem;
+    padding: 3 rem;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    border-color: black;
+    height: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
