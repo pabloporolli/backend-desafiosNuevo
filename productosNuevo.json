@@ -3,24 +3,30 @@
     "id": 1,
     "title": "Trek",
     "price": "9000",
-    "thumbnail": "https://trek.scene7.com/is/image/TrekBicycleProducts/MadoneSL7DisceTap_21_33065_A_Primary?$responsive-pjpg$&cache=on,on&wid=800&hei=600"
+    "thumbnail": "../../uploads/1668948120923_madonesl7.png"
   },
   {
     "id": 2,
     "title": "S-Works",
     "price": 10000,
-    "thumbnail": "https://www.tradeinn.com/f/13828/138282802_3/specialized-bicicleta-carretera-tarmac-sl7-pro-force-etap-axs-2022.jpg"
+    "thumbnail": "../../uploads/1668979292322_sworks-tarmac.png"
   },
   {
     "id": 3,
     "title": "Canyon",
     "price": 12000,
-    "thumbnail": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw7fbd2d2e/images/plp/Road/Aeroad/Family-Canyon-Aeroad-my22-04.jpg?sw=848"
+    "thumbnail": "../../uploads/1668980352730_trinity.png"
   },
   {
     "title": "Cube",
     "price": 1000,
-    "thumbnail": "https://www.tradeinn.com/f/13828/138282802_3/specialized-bicicleta-carretera-tarmac-sl7-pro-force-etap-axs-2022.jpg",
+    "thumbnail": "../../uploads/1668980352730_trinity.png",
     "id": 4
+  },
+  {
+    "title": "TREK",
+    "price": "12324",
+    "thumbnail": "1668979292322_sworks-tarmac.png",
+    "id": 5
   }
 ]

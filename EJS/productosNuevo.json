@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Trek",
+    "price": "9000",
+    "thumbnail": "../../uploads/1668948120923_madonesl7.png"
+  },
+  {
+    "id": 2,
+    "title": "S-Works",
+    "price": 10000,
+    "thumbnail": "../../uploads/1668979292322_sworks-tarmac.png"
+  },
+  {
+    "id": 3,
+    "title": "Canyon",
+    "price": 12000,
+    "thumbnail": "../../uploads/1668980352730_trinity.png"
+  },
+  {
+    "title": "Cube",
+    "price": 1000,
+    "thumbnail": "../../uploads/1668980352730_trinity.png",
+    "id": 4
+  },
+  {
+    "title": "TREK",
+    "price": "12324",
+    "thumbnail": "1668979292322_sworks-tarmac.png",
+    "id": 5
+  },
+  {
+    "title": "fdsfdsf",
+    "price": "32423",
+    "thumbnail": "1669056743783_roubaix.png",
+    "id": 6
+  },
+  {
+    "title": "sdfsdfsdfd",
+    "price": "3242",
+    "thumbnail": "1669057953607_propel.png",
+    "id": 7
+  },
+  {
+    "title": "fdsfsdffd",
+    "price": "234234",
+    "thumbnail": "1669120966852_roubaix.png",
+    "id": 8
+  },
+  {
+    "title": "dadsa",
+    "price": "32423",
+    "thumbnail": "1669239440264_trinity.png",
+    "id": 9
+  }
+]

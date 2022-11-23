@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1 Nuestras bicicletas
+    div
+        each producto in respuesta
+            div
+                img(src=`/uploads/${producto.thumbnail}`)
+                div
+                    h5 #{producto.title}
+                    p Precio: #{producto.price}

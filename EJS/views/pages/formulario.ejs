@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+
+<%- include ('../partials/nav') %>
+
+    <div class="pag">
+        <h1>Bienvenido a nuestro Backend</h1>
+
+        <h2>Ingrese un producto</h2>
+
+        <form action="/api/productos" enctype="multipart/form-data" method="post" class="formulario">
+            <label for="marca">Marca</label>
+            <input type="text" name="title">
+            <label for="precio">Precio</label>
+            <input type="number" name="price">
+            <label for="url">Suba su foto</label>
+            <input type="file" name="picture">
+            <input type="submit" value="Submit" class="boton">
+        </form>
+    </div>
+
+
+
+
+
+</body>
+</html>

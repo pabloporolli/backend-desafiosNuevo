@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.3.0",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
@@ -10,7 +14,7 @@
   "main": "desafio.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon desafio4.js"
+    "start": "nodemon desafio5.js"
   },
   "repository": {
     "type": "git",

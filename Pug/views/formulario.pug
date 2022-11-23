@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    div(class="pag")
+        h1 Bienvenido a nuestro Backend
+        h2 Ingrese un producto
+    form(action="/api/productos" enctype="multipart/form-data" method="post" class="formulario")
+        div
+            label(for="title") Marca
+            input(type='text' name='title')
+        div
+            label(for='price') Precio
+            input(type='number' name='price')
+        div
+            label(for="picture") Suba una foto
+            input(type='file' name="picture")
+        input(type='submit' class='boton' value='Submit')
+
+    if registrado
+        h2 El producto ha sido registrado bajo el ID: #{respuesta}
+

@@ -1,0 +1,17 @@
+<%- include ('../partials/nav') %>
+
+
+<div id="tarjetas">
+<% respuesta.forEach ((res) => { %>
+    <div class="card" style="width: 28rem; margin: 2rem;">
+    <img src="../uploads/<%=res.thumbnail%>" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">Marca: <%=res.title%></h5>
+        <p class="card-text"></p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Precio: <%=res.price%></li>
+    </ul>
+    </div>
+<% }) %>
+</div>

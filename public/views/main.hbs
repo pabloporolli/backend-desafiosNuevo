@@ -1,0 +1,18 @@
+{{> nav}}
+
+
+
+<div id="tarjetas">
+{{#each respuesta}}
+    <div class="card" style="width: 28rem; margin: 2rem;">
+    <img src="../uploads/{{this.thumbnail}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Marca: {{this.title}}</h5>
+        <p class="card-text"></p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Precio: {{this.price}}</li>
+    </ul>
+    </div>
+{{/each}}
+</div>
